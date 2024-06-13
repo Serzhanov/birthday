@@ -1,4 +1,9 @@
 
+document.addEventListener('click', function() {
+    var audioElement = document.querySelector('audio');
+    audioElement.play();
+});
+
 
 let selected1=''
 function selectedOption(str){
@@ -157,6 +162,7 @@ function hideMeFive() {
 
     }
 }
+
 
 function startStopwatch() {
     const startDate = new Date("December 22, 2022 00:00:00");
